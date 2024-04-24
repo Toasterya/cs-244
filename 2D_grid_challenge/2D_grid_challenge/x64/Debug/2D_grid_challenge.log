@@ -1,0 +1,3 @@
+﻿  2DGridGame.cpp
+C:\Users\KappelTrevor\OneDrive - University of Wisconsin-Stout\cs-244\2D_grid_challenge\2D_grid_challenge\2DGridGame.cpp(41,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  2D_grid_challenge.vcxproj -> C:\Users\KappelTrevor\OneDrive - University of Wisconsin-Stout\cs-244\2D_grid_challenge\x64\Debug\2D_grid_challenge.exe

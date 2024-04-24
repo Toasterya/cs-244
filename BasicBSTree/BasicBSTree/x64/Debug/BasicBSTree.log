@@ -1,0 +1,3 @@
+﻿  BST.cpp
+C:\Users\KappelTrevor\OneDrive - University of Wisconsin-Stout\cs-244\BasicBSTree\BasicBSTree\BST.h(143,1): warning C4715: 'BinarySearchTree<int>::closestFinder': not all control paths return a value
+  BasicBSTree.vcxproj -> C:\Users\KappelTrevor\OneDrive - University of Wisconsin-Stout\cs-244\BasicBSTree\x64\Debug\BasicBSTree.exe
