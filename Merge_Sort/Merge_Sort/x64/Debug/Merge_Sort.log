@@ -1,0 +1,3 @@
+﻿  MergeSort.cpp
+C:\Users\KappelTrevor\OneDrive - University of Wisconsin-Stout\cs-244\Merge_Sort\Merge_Sort\MergeSort.cpp(52,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Merge_Sort.vcxproj -> C:\Users\KappelTrevor\OneDrive - University of Wisconsin-Stout\cs-244\Merge_Sort\x64\Debug\Merge_Sort.exe

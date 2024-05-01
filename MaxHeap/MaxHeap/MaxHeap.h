@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <iostream>
 using namespace std;
 
 template <typename T>
@@ -62,11 +63,17 @@ public:
 
 	void insert(T val) {
 		//step 1. maintain shape
-		if (data.size() - 1 <= size) {
+		if (size == 0) {
+			data.resize(2);
+			data[1] = val;
+
+			
+		}
+		else if (data.size() - 1 <= size) {
 			data.push_back(val);
 		}
 		else {
-			data[size + 1] = val;
+			data[size] = val;
 		}
 		size++;
 		// step 2 reheapify to maintain order
@@ -78,7 +85,6 @@ public:
 		if (size > 2) {
 			T valtoreturn = data[1];
 			data[1] = data[size];
-			data.erase(size);
 			size--;
 			return valtoreturn;
 		}
@@ -87,11 +93,16 @@ public:
 			return data[1];
 		}
 		else {
-			return;
+			return NULL;
 		}
 		// reheapify down
 		reheapifyDown(1);
 
+	}
+	void dump() {
+		for (int i = 1; i <= size; i++) {
+			cout << data[i] << endl;
+		}
 	}
 
 };

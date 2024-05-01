@@ -1,0 +1,3 @@
+﻿  hashTesting.cpp
+C:\Users\KappelTrevor\OneDrive - University of Wisconsin-Stout\cs-244\Collision_testing_challange\Collision_testing_challange\Hashfuncs.h(54,1): warning C4715: 'linearHash::hashinsert': not all control paths return a value
+  Collision_testing_challange.vcxproj -> C:\Users\KappelTrevor\OneDrive - University of Wisconsin-Stout\cs-244\Collision_testing_challange\x64\Debug\Collision_testing_challange.exe
